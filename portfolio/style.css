@@ -1,16 +1,17 @@
 body {
-    background-color: #d6e6ff;
+    background-color: #e0e2db;
+    font-family: Arial;
   }
   
 .container {
     margin: auto;
-    width: 60%;
+    width: 50%;
     padding: 10px;
 }
 
 .title {
     padding: 1%;
-    background-color: #d7f9f8;
+    background-color: #d2d4c8;
 }
 
 .title h1 {
@@ -19,17 +20,22 @@ body {
 
 .title p {
     margin: 0%;
+    font-style: italic;
 }
 
 .menu {
     padding: 1%;
-    background-color: #ffffea;
+    background-color: #889696;
+}
+
+.menu a {
+    margin-right: 5%;
 }
 
 .content {
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 15%;
-    padding-left: 15%;
-    background-color: #fff0d4;
+    padding-right: 14%;
+    padding-left: 14%;
+    background-color: #b8bdb5;
 }
