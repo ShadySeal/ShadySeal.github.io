@@ -1,0 +1,35 @@
+body {
+    background-color: #d6e6ff;
+  }
+  
+.container {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.title {
+    padding: 1%;
+    background-color: #d7f9f8;
+}
+
+.title h1 {
+    margin: 0%;
+}
+
+.title p {
+    margin: 0%;
+}
+
+.menu {
+    padding: 1%;
+    background-color: #ffffea;
+}
+
+.content {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 15%;
+    padding-left: 15%;
+    background-color: #fff0d4;
+}
