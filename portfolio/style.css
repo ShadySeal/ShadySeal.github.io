@@ -1,7 +1,7 @@
 body {
     background-color: #e0e2db;
     font-family: Arial;
-  }
+}
   
 .container {
     margin: auto;
@@ -30,6 +30,23 @@ body {
 
 .menu a {
     margin-right: 5%;
+    text-decoration: none;
+}
+
+.menu a:link {
+    color: black;
+}
+
+.menu a:visited {
+    color: black;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.menu a:active {
+    color: white;
 }
 
 .content {
@@ -38,4 +55,30 @@ body {
     padding-right: 14%;
     padding-left: 14%;
     background-color: #b8bdb5;
+}
+
+.projecttitle {
+    margin-bottom: 0%;
+}
+
+.gamelink {
+    text-decoration: none;
+}
+
+.gamelink:link {
+    color:blue;
+}
+
+.gamelink:visited {
+    color:blue;
+}
+
+.gamelink:hover {
+    color:white;
+}
+
+.si_mainimage {
+    display: block;
+    width: 60%;
+    height: 60%;
 }
