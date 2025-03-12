@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Portfolio</title>
+<title>Spaceship Scavanger Code</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="title">
-            <h1>Leevi Lehtonen</h1>
-            <p>Game Programmer Portfolio</p>
-        </div>
-        <div class="menu">
-            <a href="projects.html">Back</a>
-        </div>
-        <div class="content">
+        <header>
+            <div class="title">
+                <h1>Leevi Lehtonen</h1>
+                <p>Game Programmer Portfolio</p>
+            </div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </header>
+        <main>
             <img class="code_img" src="images/ss_code01.png" alt="Spaceship Scavenger">
             <p>
                 This code handles attracting objects towards a defined point (floatPoint). It first checks if there is a target; if not, it performs a raycast to find one.
@@ -25,7 +30,7 @@
                 When conditions are met, it triggers animations, plays sounds, enables/disables movement, and freezes/unfreezes the core's Rigidbody.
                 The core moves towards the teleporter, and once it reaches the target, the teleportation sequence begins.
             </p>
-        </div>
+        </main>
     </div>
 </body>
 </html> 

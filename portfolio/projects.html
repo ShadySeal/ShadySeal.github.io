@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>My Portfolio</title>
+<title>Projects</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="title">
-            <h1>Leevi Lehtonen</h1>
-            <p>Game Programmer Portfolio</p>
-        </div>
-        <div class="menu">
-            <a href="index.html">Home</a>
-            <a style="color: white" href="projects.html">Projects</a>
-            <a href="resume.html">Resume</a>
-            <a href="contacts.html">Contacts</a>
-        </div>
-        <div class="content">
+        <header>
+            <div class="title">
+                <h1>Leevi Lehtonen</h1>
+                <p>Game Programmer Portfolio</p>
+            </div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contacts.html">Contacts</a>
+            </div>
+        </header>
+        <main>
             <h1>Spaceship Scavenger</h1>
-            <iframe width="640" height="360"
-            src="https://www.youtube.com/embed/pWoXDEV_ReY">
-            </iframe> 
-            <img class="si_mainimage" src="images/spaceship_scavenger01.png" alt="Spaceship Scavenger"> 
+            <div class="media">
+                <iframe width="960" height="540"
+                src="https://www.youtube.com/embed/pWoXDEV_ReY">
+                </iframe> 
+                <img class="ss_mainimage" src="images/spaceship_scavenger01.png" alt="Spaceship Scavenger"> 
+            </div>
             <p>
                 My biggest and most ambitious project yet—Spaceship Scavenger. This game was created in 12 weeks by a team of 9.
             </p>
@@ -41,12 +45,13 @@
             <img class="si_img" src="images/ss_img01.png" alt="Spaceship Scavenger">
             <img class="si_img" src="images/ss_img02.png" alt="Spaceship Scavenger">
             <img class="si_img" src="images/ss_img03.png" alt="Spaceship Scavenger">
+            <br>
             <a class="gamelink" href="https://arthawk.itch.io/spaceship-scavenger">Play the game</a><br>
             <a class="gamelink" href="https://www.youtube.com/watch?v=pWoXDEV_ReY&t=1s">Trailer</a><br>
             <a class="gamelink" href="ss_code.html">Code examples</a>
-            <br>
+            <br><br>
             <h1>AI Chess Algorithm</h1>
-            <img class="si_mainimage" src="images/chess01.png" alt="Space Invaders"> 
+            <img class="mainimage" src="images/chess01.png" alt="Space Invaders"> 
             <p>
                 A recreation of chess that utilizes bot algorithm, done in C++.
             </p>
@@ -54,9 +59,9 @@
                 This was done in a course where I made a chess bot that you can play against. It was really interesting and fun to learn about algorithms and C++.
             </p>
             <a class="gamelink" href="chess_code.html">Code examples</a>
-            <br>
+            <br><br>
             <h1>Space Invaders</h1>
-            <img class="si_mainimage" src="images/space_invaders01.png" alt="Space Invaders"> 
+            <img class="mainimage" src="images/space_invaders01.png" alt="Space Invaders"> 
             <p>
                 This was my first solo game development project—a remake of the classic title Space Invaders. 
                 The game was created within the span of a month as part of a school project.
@@ -72,10 +77,11 @@
             <img class="si_img" src="images/si_img01.png" alt="Space Invaders">
             <img class="si_img" src="images/si_img02.png" alt="Space Invaders">
             <img class="si_img" src="images/si_img03.png" alt="Space Invaders">
+            <br>
             <a class="gamelink" href="https://shadyseal.itch.io/space-invaders">Play the game</a><br>
             <a class="gamelink" href="https://www.youtube.com/watch?v=4qUb8AL76IY">Video Demo</a><br>
             <a class="gamelink" href="si_code.html">Code examples</a>
-        </div>
+        </main>
     </div>
 </body>
 </html> 
