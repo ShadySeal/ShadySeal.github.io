@@ -1,150 +1,151 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
+<title>Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="title">
-                <h1>Leevi Lehtonen</h1>
-                <p>Portfolio</p>
-            </div>
-            <div class="menu">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#projects">Projects</a>
-                <a href="#resume">Resume</a>
-                <a href="#contacts">Contacts</a>
-            </div>
-        </header>
-
-        <section id="about">
-            <h1>About Me</h1>
-            <p>
-                Hi, I’m Leevi—a game development student at Metropolia University of Applied Sciences and an aspiring game programmer with a lot of interest in games and their technical side.
-                I have experience with programming languages like C# and Python, which I’ve applied in various projects throughout my studies.
-                These projects have not only honed my technical skills but also strengthened my abilities in teamwork, problem-solving, and effective communication.
-                <br>
-                Feel free to explore the projects I’ve worked on and see how I’ve applied my skills in practice.
-            </p>
-        </section>
-
-        <section id="projects">
-            <h1>Projects</h1>
-            <h2>Spaceship Scavenger</h2>
-            <div class="media">
-                <iframe
-                    src="https://www.youtube.com/embed/pWoXDEV_ReY"
-                    frameborder="0" 
-                    allowfullscreen>
-                </iframe> 
-                <img class="ss_mainimage" src="images/spaceship_scavenger01.png" alt="Spaceship Scavenger"> 
-            </div>
-            <p>
-                Spaceship Scavenger was created in 12 weeks by a team of 9 and was selected as a winner in the Bit1 competition.
-            </p>
-            <p>
-                Spaceship Scavenger is a time limited puzzle game set in space. Player moves in an
-                abandoned spaceship. The goal is to find the containment core and bring it back to
-                your ship in a limited time while you have to avoid obstacles and solve puzzles.
-            </p>
-            <p>
-                In this project, I created the player movement and implemented various tools they can use, such as a grappling tool and a cutting tool.
-                I also made a lot of the interactable elements found in the level, checkpoint system and some UI stuff.
-            </p>
-            <p>
-                I had a lot of fun working on this project and learned lot of valuable stuff when it comes to teamwork. Our team maintained good communication, and this project helped me truly appreciate its importance.
-                Additionally, I enhanced my understanding of Git, including branching and conflict resolution.
-            </p>
-            <img class="si_img" src="images/ss_img01.png" alt="Spaceship Scavenger">
-            <img class="si_img" src="images/ss_img02.png" alt="Spaceship Scavenger">
-            <img class="si_img" src="images/ss_img03.png" alt="Spaceship Scavenger">
+    <header>
+        <div class="container">
+            <nav>
+                <div class="title">
+                    <h1>Leevi Lehtonen</h1>
+                    <p>Portfolio</p>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <h1>About Me</h1>
+        <p>
+            Hi, I’m Leevi—a game development student at Metropolia University of Applied Sciences and an aspiring game programmer with a lot of interest in games and their technical side.
+            I have experience with programming languages like C# and Python, which I’ve applied in various projects throughout my studies.
+            These projects have not only honed my technical skills but also strengthened my abilities in teamwork, problem-solving, and effective communication.
             <br>
-            <a class="gamelink" href="https://arthawk.itch.io/spaceship-scavenger">Play the game</a><br>
-            <a class="gamelink" href="https://www.youtube.com/watch?v=pWoXDEV_ReY&t=1s">Trailer</a><br>
-            <a class="gamelink" href="ss_code.html">Code examples</a>
-            <br><br>
-            <h2>Back to Work!</h2>
-            <img class="mainimage" src="images/btw_img01.png" alt="Back to Work!"> 
-            <p>
-                Game made in 48 hours by team of 6 during Global Game Jam.
-            </p>
-            <p>
-                In this game, your goal is to gather all your co-workers and escape undetected before your boss catches you.
-            </p>
-            <p>
-                I created the co-worker following system and implemented all of the animations.
-            </p>
-            <a class="gamelink" href="https://shadyseal.itch.io/back-to-work">Play the game</a><br>
-            <a class="gamelink" href="https://www.youtube.com/watch?v=ojT3lRZMK9w">Video Demo</a><br>
-            <br><br>
-            <h2>AI Chess Algorithm</h2>
-            <img class="mainimage" src="images/chess01.png" alt="Space Invaders"> 
-            <p>
-                A recreation of chess that utilizes bot algorithm, done in C++.
-            </p>
-            <p>
-                This was done in a course where I made a chess bot that you can play against. It was really interesting and fun to learn about algorithms and C++.
-            </p>
-            <a class="gamelink" href="chess_code.html">Code examples</a>
-            <br><br>
-            <h2>Space Invaders</h2>
-            <img class="mainimage" src="images/space_invaders01.png" alt="Space Invaders"> 
-            <p>
-                This was my first solo game development project—a remake of the classic title Space Invaders. 
-                The game was created within the span of a month as part of a school project.
-            </p>
-            <p>
-                This version of Space Invaders works similarly as regular Space Invaders. The player's goal is to eliminate all incoming waves of aliens by shooting them without allowing them to reach the bottom of the screen. 
-                Only additions I made was updated visuals with better graphics, animations, and sounds. This version also has beginning and an end. The game consists of 5 levels and final boss. 
-                This game was made using Unity as the engine and all the textures and animations were made by be.
-            </p>
-            <p>
-                During this project I learned lot when it comes to using Unity and lot of good coding practices such as better naming conventions, breaking down code into smaller functions and separate scripts and avoiding overusing public variables / functions.
-            </p>
-            <img class="si_img" src="images/si_img01.png" alt="Space Invaders">
-            <img class="si_img" src="images/si_img02.png" alt="Space Invaders">
-            <img class="si_img" src="images/si_img03.png" alt="Space Invaders">
-            <br>
-            <a class="gamelink" href="https://shadyseal.itch.io/space-invaders">Play the game</a><br>
-            <a class="gamelink" href="https://www.youtube.com/watch?v=4qUb8AL76IY">Video Demo</a><br>
-            <a class="gamelink" href="si_code.html">Code examples</a>
-        </section>
+            Feel free to explore the projects I’ve worked on and see how I’ve applied my skills in practice.
+        </p>
+    </section>
 
-        <section id="resume">
-            <h1>Resume</h1>
-            <h2>Education</h2>
-            <p><b>Metroplolia University of Applied Sciences</b>, Degree Programme in Information and Communication Technology, Karamalmi, Espoo (2023 - present).</p>
-            <p><b>Omnia</b>, Vocational qualification in Information and Communications Technology, software developer, Espoo, Leppävaara (2020 - 2022).</p>
-            <h2>Projects</h2>
-            <p style="margin-bottom: 0%;"><b>Spaceship Scavenger</b>, made in Unity – Autumn 2024</p>
-            <p style="margin-top: 0%;">Group project made in 12 weeks by team of 9.</p>
-            <p style="margin-bottom: 0%;"><b>Last Light</b>, made in Unreal Engine – Spring 2024</p>
-            <p style="margin-top: 0%;">Group project that was created using Unreal Engine.</p>
-            <p style="margin-bottom: 0%;"><b>Chess Bot</b> – Winter 2024</p>
-            <p style="margin-top: 0%;">School project where we created chess bot algorithm.</p>
-            <p style="margin-bottom: 0%;"><b>Space Invaders</b>, made in Unity – Autumn 2023</p>
-            <p style="margin-top: 0%;">Solo game project that I made during my education at Metropolia.</p>
-            <h2>Skills</h2>
-            <ul>
-                <li>C#</li>
-                <li>Python</li>
-                <li>Unity</li>
-                <li>Unreal Engine</li>
-                <li>Git</li>
-            </ul>
-        </section>
+    <section id="projects">
+        <h1>Projects</h1>
+        <h2>Spaceship Scavenger</h2>
+        <div class="media">
+            <iframe
+                src="https://www.youtube.com/embed/pWoXDEV_ReY"
+                frameborder="0" 
+                allowfullscreen>
+            </iframe> 
+            <img class="ss_mainimage" src="images/spaceship_scavenger01.png" alt="Spaceship Scavenger"> 
+        </div>
+        <p>
+            Spaceship Scavenger was created in 12 weeks by a team of 9 and was selected as a winner in the Bit1 competition.
+        </p>
+        <p>
+            Spaceship Scavenger is a time limited puzzle game set in space. Player moves in an
+            abandoned spaceship. The goal is to find the containment core and bring it back to
+            your ship in a limited time while you have to avoid obstacles and solve puzzles.
+        </p>
+        <p>
+            In this project, I created the player movement and implemented various tools they can use, such as a grappling tool and a cutting tool.
+            I also made a lot of the interactable elements found in the level, checkpoint system and some UI stuff.
+        </p>
+        <p>
+            I had a lot of fun working on this project and learned lot of valuable stuff when it comes to teamwork. Our team maintained good communication, and this project helped me truly appreciate its importance.
+            Additionally, I enhanced my understanding of Git, including branching and conflict resolution.
+        </p>
+        <img class="si_img" src="images/ss_img01.png" alt="Spaceship Scavenger">
+        <img class="si_img" src="images/ss_img02.png" alt="Spaceship Scavenger">
+        <img class="si_img" src="images/ss_img03.png" alt="Spaceship Scavenger">
+        <br>
+        <a class="gamelink" href="https://arthawk.itch.io/spaceship-scavenger">Play the game</a><br>
+        <a class="gamelink" href="https://www.youtube.com/watch?v=pWoXDEV_ReY&t=1s">Trailer</a><br>
+        <a class="gamelink" href="ss_code.html">Code examples</a>
+        <br><br>
+        <h2>Back to Work!</h2>
+        <img class="mainimage" src="images/btw_img01.png" alt="Back to Work!"> 
+        <p>
+            Game made in 48 hours by team of 6 during Global Game Jam.
+        </p>
+        <p>
+            In this game, your goal is to gather all your co-workers and escape undetected before your boss catches you.
+        </p>
+        <p>
+            I created the co-worker following system and implemented all of the animations.
+        </p>
+        <a class="gamelink" href="https://shadyseal.itch.io/back-to-work">Play the game</a><br>
+        <a class="gamelink" href="https://www.youtube.com/watch?v=ojT3lRZMK9w">Video Demo</a><br>
+        <br><br>
+        <h2>AI Chess Algorithm</h2>
+        <img class="mainimage" src="images/chess01.png" alt="Space Invaders"> 
+        <p>
+            A recreation of chess that utilizes bot algorithm, done in C++.
+        </p>
+        <p>
+            This was done in a course where I made a chess bot that you can play against. It was really interesting and fun to learn about algorithms and C++.
+        </p>
+        <a class="gamelink" href="chess_code.html">Code examples</a>
+        <br><br>
+        <h2>Space Invaders</h2>
+        <img class="mainimage" src="images/space_invaders01.png" alt="Space Invaders"> 
+        <p>
+            This was my first solo game development project—a remake of the classic title Space Invaders. 
+            The game was created within the span of a month as part of a school project.
+        </p>
+        <p>
+            This version of Space Invaders works similarly as regular Space Invaders. The player's goal is to eliminate all incoming waves of aliens by shooting them without allowing them to reach the bottom of the screen. 
+            Only additions I made was updated visuals with better graphics, animations, and sounds. This version also has beginning and an end. The game consists of 5 levels and final boss. 
+            This game was made using Unity as the engine and all the textures and animations were made by be.
+        </p>
+        <p>
+            During this project I learned lot when it comes to using Unity and lot of good coding practices such as better naming conventions, breaking down code into smaller functions and separate scripts and avoiding overusing public variables / functions.
+        </p>
+        <img class="si_img" src="images/si_img01.png" alt="Space Invaders">
+        <img class="si_img" src="images/si_img02.png" alt="Space Invaders">
+        <img class="si_img" src="images/si_img03.png" alt="Space Invaders">
+        <br>
+        <a class="gamelink" href="https://shadyseal.itch.io/space-invaders">Play the game</a><br>
+        <a class="gamelink" href="https://www.youtube.com/watch?v=4qUb8AL76IY">Video Demo</a><br>
+        <a class="gamelink" href="si_code.html">Code examples</a>
+    </section>
 
-        <section id="contacts">
-            <h1>Contacts</h1>
-            <address>
-                Email: <a href="leevi.lehtonen@proton.me">leevi.lehtonen@proton.me</a><br>
-                Phone number: <a href="+358 40 1545997">+358 40 1545997</a><br>
-                GitHub: <a href="https://github.com/ShadySeal">https://github.com/ShadySeal</a><br>
-            </address>
-        </section>
-    </div>
+    <section id="resume">
+        <h1>Resume</h1>
+        <h2>Education</h2>
+        <p><b>Metroplolia University of Applied Sciences</b>, Degree Programme in Information and Communication Technology, Karamalmi, Espoo (2023 - present).</p>
+        <p><b>Omnia</b>, Vocational qualification in Information and Communications Technology, software developer, Espoo, Leppävaara (2020 - 2022).</p>
+        <h2>Projects</h2>
+        <p style="margin-bottom: 0%;"><b>Spaceship Scavenger</b>, made in Unity – Autumn 2024</p>
+        <p style="margin-top: 0%;">Group project made in 12 weeks by team of 9.</p>
+        <p style="margin-bottom: 0%;"><b>Last Light</b>, made in Unreal Engine – Spring 2024</p>
+        <p style="margin-top: 0%;">Group project that was created using Unreal Engine.</p>
+        <p style="margin-bottom: 0%;"><b>Chess Bot</b> – Winter 2024</p>
+        <p style="margin-top: 0%;">School project where we created chess bot algorithm.</p>
+        <p style="margin-bottom: 0%;"><b>Space Invaders</b>, made in Unity – Autumn 2023</p>
+        <p style="margin-top: 0%;">Solo game project that I made during my education at Metropolia.</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>C#</li>
+            <li>Python</li>
+            <li>Unity</li>
+            <li>Unreal Engine</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+    <section id="contacts">
+        <h1>Contacts</h1>
+        <address>
+            Email: <a href="leevi.lehtonen@proton.me">leevi.lehtonen@proton.me</a><br>
+            Phone number: <a href="+358 40 1545997">+358 40 1545997</a><br>
+            GitHub: <a href="https://github.com/ShadySeal">https://github.com/ShadySeal</a><br>
+        </address>
+    </section>
 </body>
 </html>
