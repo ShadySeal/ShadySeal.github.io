@@ -192,6 +192,18 @@ iframe{
     height: auto;
 }
 
+@media screen and (max-width: 1200px) {
+
+    .about_content {
+        flex-direction: column;
+    }
+
+    .about_image {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .title h1 {
@@ -234,14 +246,5 @@ iframe{
         margin-top: 0px;
         text-align: center;
         font-size: 20px;
-    }
-
-    .about_content {
-        flex-direction: column;
-    }
-
-    .about_image {
-        width: 100%;
-        max-width: 100%;
     }
 }
